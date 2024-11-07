@@ -1,0 +1,11 @@
+p{
+    color: blue;
+}
+
+#cabecalho {
+    font-size: 24px;
+}
+
+[input="text"] {
+    border: 1px solid black;
+}
