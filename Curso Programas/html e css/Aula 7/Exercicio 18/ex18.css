@@ -1,0 +1,57 @@
+h3.blue {
+    border-style: solid;
+    border-color: blue;
+}
+h3.green {
+    border-style: dotted;
+    border-color: green;
+    border-width: 16px;
+}
+
+h4.red {
+    border-style: dashed;
+    border-color: red;
+    border-width: 6px;
+
+}
+h4.brown {
+    border-style: solid;
+    border-color: brown;
+    border-width: 10px;
+
+}
+
+h5.purple {
+    border-style: solid;
+    border-color: rgb(220, 0, 255);
+    border-width: thick;
+}
+
+h5.orange {
+    border-style: solid;
+    border-color: orange;
+    border-width: medium;
+}
+h6.pink {
+    border-style: solid;
+    border-color: rgb(220, 20, 60);
+    border-width: thin;
+}
+
+h6.brown {
+    border-style: double;
+    border-color: #808000;
+    border-width: 14px 1px;
+}
+
+p.green {
+    border-style: dotted;
+    border-color: #00FF00;
+    border-width: 10px;
+}
+
+p.pink {
+    border-style: dashed;
+    border-color: rgb(255, 20, 147);
+    border-width: 1cm;
+}
