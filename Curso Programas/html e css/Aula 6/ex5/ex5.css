@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    height: 100px;
+    justify-content: space-between;
+}
+
+#elemento1 {
+   
+    background-color: red;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#elemento2 {
+    
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#elemento3 {
+    background-color: white;
+    font-size: medium;
+    font-weight: bold;
+}
