@@ -1,0 +1,28 @@
+div.preto {
+    width: 500px;
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+
+}
+
+h2 {
+    
+    color: white;
+}
+
+div.green {
+    border: 1px solid gray;
+    width: 250px;
+    padding: 20px;
+    background-color: #B6F0C7;
+    margin: auto;
+}
+
+div.blue {
+
+    width: 500px;
+    background-color: #028B8B;
+    padding: 20px;
+    margin: auto;
+}
