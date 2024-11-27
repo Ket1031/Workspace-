@@ -1,0 +1,79 @@
+
+body{
+    background-color: #400C4C;
+}
+
+div.alinha {
+    display: flex;
+    gap: 20px;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+
+div.inicio {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(202, 192, 192);
+    width: 99%;
+    background-color: #753782;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    object-fit: cover;
+
+}
+div.um {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 35px;
+    width: 300px;
+    height: 320px;
+    padding: 20px;
+    background-color: #9462A1;
+    margin: auto;
+    object-fit: cover;
+}
+div.dois {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 35px;
+    width: 300px;
+    height: 320px;
+    padding: 20px;
+    background-color: #9462A1;
+    margin: auto;
+    object-fit: cover;
+}
+div.tres {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 35px;
+    width: 300px;
+    height: 320px;
+    padding: 20px;
+    background-color: #9462A1;
+    margin: auto;
+    object-fit: cover;
+}
+div.quatro {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 35px;
+    width: 300px;
+    height: 320px;
+    padding: 20px;
+    background-color: #9462A1;
+    margin: auto;
+    object-fit: cover;
+}
+
+
+div.rodape {
+
+    width: 99%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(195, 195, 195);
+    border-radius: 20px;
+    background-color: #753782;
+    padding: 20px;
+    margin: auto;
+}
