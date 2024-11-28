@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(236, 235, 235);
+    background-image: url(https://64.media.tumblr.com/d9b1fd37b006106371d79211df782adb/f8d8e604ebf56233-1a/s1280x1920/d35b9bc0a3296c996fac4c07967a9b466578843c.png);
 }
 
 .alinha {
@@ -22,7 +22,7 @@ body{
     color: rgb(202, 192, 192);
     font-size: large;
     width: 100vw;
-    background-color: black;
+    background-color: #2a0369;
     text-align: center;
     padding: 20px;
 }
@@ -63,14 +63,29 @@ body{
     color: rgb(238, 243, 249);
 }
 
+.link{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.link:hover{
+    opacity: 50%;
+}
+
+.link:nth-child(2) {
+    color: yellow;
+}
 
 .rodape {
 
     width: 99%;
     
-    color: rgb(195, 195, 195);
+    color: rgb(232, 231, 231);
     border-radius: 20px;
-    background-color: black;
+    background-color: #2a0369;
     padding: 20px;
     margin: auto;
 }
