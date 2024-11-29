@@ -46,7 +46,7 @@ body{
     background-color: plum;
 }
 .container:nth-child(4) { 
-    background-color: #EE801F
+    background-color: #e1924d
 }
 .container:nth-child(5) { 
     background-color: rgb(127, 169, 195);
@@ -60,7 +60,7 @@ body{
 
 .letraGrande{
     text-align: center;
-    color: rgb(238, 243, 249);
+    color: #2a0369;
 }
 
 .link{
