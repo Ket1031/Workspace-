@@ -1,14 +1,16 @@
 public class Animal {
-    public String tipo;
-    public String som;
-    int idade;
 
-    void fazSom(){
-        System.out.println("O" + tipo + som);
-    }
-}
+     String tipo;
+     String som;
 
-class Gato extends Animal {
+     Animal(){
+     }
+     Animal(String tipo, String som){
+         this.tipo = tipo;
+         this.som = som;
+     }
 
-
+      void fazSom(){
+          System.out.println("O " + tipo + som);
+      }
 }
