@@ -1,16 +1,14 @@
-public class Animal {
+// Classe Animal (classe base)
+class Animal {
+    public void fazSom() {
+        System.out.println("O Animal emite um som");
+    }
+}
 
-     String tipo;
-     String som;
-
-     Animal(){
-     }
-     Animal(String tipo, String som){
-         this.tipo = tipo;
-         this.som = som;
-     }
-
-      void fazSom(){
-          System.out.println("O " + tipo + som);
-      }
+// Classe Gato (subclasse de Animal)
+class Gato extends Animal {
+    @Override
+    public void fazSom() {
+        System.out.println("O Gato mia");
+    }
 }
