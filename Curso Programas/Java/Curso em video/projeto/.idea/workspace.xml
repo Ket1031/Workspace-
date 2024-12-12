@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6519b631-77dd-480a-8fb9-fd57a35e86b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pacote1/classeA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pacote1/classeB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java (orientada a objetos)/Aula 2/Gestao bancaria.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java (orientada a objetos)/Aula 3/Classes Empregado.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java (orientada a objetos)/Aula 4/heranca.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2q7Y4ZYXCfgbpZqvfQo4p113G9b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.classeB.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6519b631-77dd-480a-8fb9-fd57a35e86b6" name="Changes" comment="" />
+      <created>1734014892497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734014892497</updated>
+    </task>
+    <servers />
+  </component>
+</project>
