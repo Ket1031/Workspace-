@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="615c4659-cc44-4d41-859a-2c5d25e26df0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Aula 6/Execoes/src/MinhaExcecao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 6/Execoes/src/Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 6/Execoes/src/TesteExcecao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 6/Execoes/src/VetorInteiros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Curso em video/Aula01/src/aula01/Caneta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Curso em video/Aula01/src/aula01/aula02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Curso em video/Aula03/src/aula04/Aula04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Curso em video/Aula03/src/aula04/Caneta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Curso em video/Aula03/src/aula04/CanetaTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Aula 6/Exercicio 20/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Aula 6/Exercicio 20/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Curso em video/objetos/src/aula.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Curso em video/objetos/src/aula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Curso em video/projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Curso em video/projeto/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2qAgLwnWXVTmyCreQq9m7fbb8YO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nayra/OneDrive - IEFP Formação/Área de Trabalho/Curso IEFP/Workspace/Curso Programas/Java (orientada a objetos)/Aula 5/Tratamento de execoes&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="615c4659-cc44-4d41-859a-2c5d25e26df0" name="Changes" comment="" />
+      <created>1734110744982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734110744982</updated>
+    </task>
+    <servers />
+  </component>
+</project>

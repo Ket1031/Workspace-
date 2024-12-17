@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6519b631-77dd-480a-8fb9-fd57a35e86b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pacote1/classeA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pacote1/classeB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java (orientada a objetos)/Aula 2/Gestao bancaria.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java (orientada a objetos)/Aula 3/Classes Empregado.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java (orientada a objetos)/Aula 4/heranca.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java (orientada a objetos)/Aula 6/Execoes/src/Numeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../objetos/src/aula.java" beforeDir="false" afterPath="$PROJECT_DIR$/../objetos/src/aula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2q7Y4ZYXCfgbpZqvfQo4p113G9b" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,7 +38,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nayra/OneDrive - IEFP Formação/Área de Trabalho/Curso IEFP/Workspace/Curso Programas/Java/Curso em video/Aula 1 - Classes e objetos"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
