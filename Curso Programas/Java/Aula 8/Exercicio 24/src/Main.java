@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import static javax.swing.UIManager.get;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -11,9 +13,18 @@ public class Main {
         lista.Remova o número 20.Imprima todos os números restantes.;
          */
 
-        ArrayList<String> numeros = new ArrayList<>();
-        numeros.add(0 ,10,20,30,40,50);
+        ArrayList<Integer> numeros = new ArrayList<>();
+        numeros.add(10);
+        numeros.add(20);
+        numeros.add(30);
+        numeros.add(40);
+        numeros.add(50);
 
-        System.out.println(get());
+        int indice = numeros.get(2);
+        System.out.println("resposta: " + indice);
+
+        numeros.remove(Integer.valueOf(20));
+
+        System.out.println(numeros);
     }
 }
