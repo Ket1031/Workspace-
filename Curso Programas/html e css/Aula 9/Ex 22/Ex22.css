@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
 
-html,body {
+html, body {
     width: 100vw;
-    height: 100vw;
+    height: 100vh; /* Corrigido de 100vw para 100vh */
     background-color: #f4f4f4;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,13 +20,55 @@ header{
     padding: 0 80px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     width: 400px;
 }
+.navbar a {
+    text-decoration: none;
+    color: #000; /* ou qualquer cor que você queira */
+}
 
-.logo{
+.botao {
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(28, 23, 23);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logo {
     width: 160px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adicionado altura fixa */
+}
+
+.title {
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+    z-index: 1; /* Adicionado z-index para garantir que o texto fique sobre a imagem */
+    
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute; /* Adicionado position absolute */
+    top: 0;
+    left: 0;
 }
 
