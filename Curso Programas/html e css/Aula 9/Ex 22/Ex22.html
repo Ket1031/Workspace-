@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ex22</title>
     <link rel="stylesheet" href="Ex22.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    
 </head>
 
 <body>
     <header>
         <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logoup.jpg/1200px-Logoup.jpg" alt="" />
         <div class="navbar">
-            <a class="botao" href="">Início</a>
-            <a class="botao" href="">Apresentação</a>
-            <a class="botao" href="">Contactos</a>
+            <a class="botao" href="#inicio">Início</a>
+            <a class="botao" href="#apesentacao">Apresentação</a>
+            <a class="botao" href="#contatos">Contactos</a>
         </div>
     </header>
 
-    <div class="container">
-        <h1 class="title">Licenciatura em Jornalismo <br> e Ciências da Comunicação</h1>
-        <img class="banner" src="imgSiteBackground.jpeg" alt="" />
+    <div class="container" id="inicio">
+        <h1 class="title">Licenciatura em Jornalismo e Ciências da Comunicação</h1>
+        <img class="banner" src="background.jpeg" alt="imagem de universitarios conversando" />
     </div>
 
 
-   <h2>Apresentação</h2>
+   <h2 class="apresentacao" id="apesentacao">Apresentação</h2>
 
     <p>
       O curso de Jornalismo e Ciências da Comunicação, que tem como base um
@@ -49,7 +52,10 @@
       <li>Comunicação Multimédia</li>
     </ul>
 
-    <p>
+    <div class="containerParagrafos">
+
+      
+    <p class="paragrafo">
       Pretende-se um leque vasto de saídas profissionais, das
       <i>várias formas de jornalismo</i> (escrito, radiofónico, televisão e
       online) aos <i>gabinetes de imprensa e de imagem</i>, passando pela
@@ -57,7 +63,7 @@
       tipo.
     </p>
 
-    <p>
+    <p class="paragrafo">
       Pretende-se que o curso tenha uma forte componente prática, em estúdio,
       laboratório multimédia e redacção informatizada, com os alunos a
       trabalharem em projectos e, logo que possível, em produções para a
@@ -65,8 +71,11 @@
       disciplinas teóricas e práticas.
     </p>
 
-     <!-- 
-    <h2>Contactos</h2>
+    </div>
+
+    <h2 class="contatosTitle" id="contatos">Contactos</h2>
+
+    <div class="contatos">
 
     <p>
       Praça Coronel Pacheco, 8 4000 Porto <br /><br />
@@ -75,6 +84,10 @@
       Fax: 223 393 668
       <br /><br />
       Mail: mail@icicom.up.pt
-    </p> -->
+    </p>
+    </div>
+
+     
+
   </body>
 </html>

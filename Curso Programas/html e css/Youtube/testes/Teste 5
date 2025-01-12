@@ -1,0 +1,117 @@
+//html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onda Preta Simples</title>
+    <link rel="stylesheet" href="Projeto.css" />
+  </head>
+  <body>
+
+    <body>
+        <header>
+            <img class="logo" src="Sonar.png" alt="" />
+            <div class="navbar">
+                <a class="botao" href="">Início</a>
+                <a class="botao" href="">Apresentação</a>
+                <a class="botao" href="">Contactos</a>
+            </div>
+        </header>
+
+
+
+
+    <svg
+      class="wave"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 200"
+      fill="none"
+      stroke="black"
+      stroke-width="2"
+    >
+      <path
+        class="wave-path"
+        d="M 0 100 Q 50 80, 100 100 T 200 100 T 300 100 T 400 100 T 500 100 T 600
+           100 T 700 100  T 800 100 T 900 100 T 1000 100 T 1100 100 T 1200 100"
+      />
+    </svg>
+  </body>
+</html>
+
+//css
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  html, body {
+    width: 100vw;
+    height: 100vh; /* Corrigido de 100vw para 100vh */
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 0 80px;
+  } 
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #000; /* ou qualquer cor que você queira */
+  }
+  
+  .botao {
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(28, 23, 23);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logo {
+    width: 120px;
+  }
+  
+  .wave {
+    width: 100%;
+    height: auto;
+  }
+  
+  .wave-path {
+    animation: wave-move 3s infinite ease-in-out;
+  }
+  
+  @keyframes wave-move {
+    0% {
+      d: path(
+        "M 0 100 Q 50 80, 100 100 T 200 100 T 300 100 T 400 100 T 500 100 T 600 100 T 700 100 T 800 100 T 900 100 T 1000 100 T 1100 100 T 1200 100"
+      );
+    }
+  
+    50% {
+      d: path(
+        "M 0 100 Q 50 120, 100 100 T 200 100 T 300 120 T 400 80 T 500 100 T 600 120 T 700 80 T 800 100 T 900 120 T 1000 100 T 1100 80 T 1200 100"
+      );
+    }
+  
+    100% {
+      d: path(
+        "M 0 100 Q 50 80, 100 100 T 200 100 T 300 100 T 400 100 T 500 100 T 600 100 T 700 100 T 800 100 T 900 100 T 1000 100 T 1100 100 T 1200 100"
+      );
+    }
+  }

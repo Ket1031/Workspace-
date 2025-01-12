@@ -7,8 +7,8 @@
 
 html, body {
     width: 100vw;
-    height: 100vh; /* Corrigido de 100vw para 100vh */
-    background-color: #f4f4f4;
+    height: 100vh; 
+    background-color: #D5D5D5;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 70px;
+    height: 90px;
     padding: 0 80px;
 }
 
@@ -27,7 +27,7 @@ header {
 }
 .navbar a {
     text-decoration: none;
-    color: #000; /* ou qualquer cor que você queira */
+    color: #000; 
 }
 
 .botao {
@@ -38,6 +38,7 @@ header {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    font-family: "Open Sans", serif;
 }
 
 .logo {
@@ -47,28 +48,89 @@ header {
 .container {
     position: relative;
     width: 100%;
-    height: 500px; /* Adicionado altura fixa */
+    height: 500px; 
 }
 
-.title {
-    position: absolute;
-    font-family: sans-serif;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 30px;
-    text-shadow: 2px 2px 4px black;
-    z-index: 1; /* Adicionado z-index para garantir que o texto fique sobre a imagem */
-    
-}
 
 .banner {
     width: 100%;
-    height: 500px;
+    height: 800px;
     object-fit: cover;
-    position: absolute; /* Adicionado position absolute */
+    position: absolute; 
     top: 0;
     left: 0;
 }
+.title {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: #231F20;   
+    font-size: 70px;
+    z-index: 1; 
+    word-wrap: break-word;
+    line-height: 1.1;
+    width: 35%;
+
+    /*
+    border-width: 0.2px;
+    border-style: solid;
+    border-color: darkblue;
+    */
+    
+}
+
+.apresentacao {
+    position: absolute;
+    top: 140%;
+    left: 9%;
+    color: #231F20;   
+    font-size: 50px;
+    width: 35%;
+    
+
+}
+
+.containerParagrafos {
+    position: absolute;
+    top: 160%; 
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    
+}
+
+.paragrafo {
+    color: #231F20;   
+    text-align: justify;
+    font-size: 25px;
+    font-family:"Open Sans", serif;
+    word-wrap: break-word;
+    line-height: 1.5;
+    width: 45%;
+     
+
+}
+
+.contatosTitle {
+    position: absolute;
+    top: 240%;
+    left: 5%;
+    color: #231F20;   
+    font-size: 30px;
+    width: 35%;
+}
+
+.contatos {
+    position: absolute;
+    top: 250%; 
+    left: 5%;
+    
+}
+
+
+
+
 
