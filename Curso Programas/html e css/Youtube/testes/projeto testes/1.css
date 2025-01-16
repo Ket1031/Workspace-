@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #A6BCD4;
+  }
+  
+  header {
+    background-color: #112852;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 700px;
+    background-image: url('https://i.redd.it/96pg2m2tchna1.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .bannerButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #112852;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .containerCards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #6F8CAE;
+  }
+  
+  .artistCard {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .artistCard img {
+    border-radius: 10px;
+  }
+  
+  .bodyText {
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #112852;
+    color: #fff;
+  }
+  
