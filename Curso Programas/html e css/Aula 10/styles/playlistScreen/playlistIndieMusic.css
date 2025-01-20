@@ -1,0 +1,112 @@
+.playlistContainer{
+  display: flex;
+  flex-flow: column;
+  width: 1400px;
+  height: 100%;
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgb(185, 109, 73) 0%, rgb(4, 4, 4) 68%);
+}
+
+.playlistInfoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 350px;
+}
+
+.logoPlaylistIndie{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.playlistInfoContent{
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  align-items: start;
+  gap: 20px;
+  width: 940px;
+  height: 300px;
+}
+
+.contentInfo{
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.playlistTitle{
+  font-size: 100px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.playlistCreatorInfo{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 300px;
+}
+
+.playlistCreator{
+  color: #FFFFFF;
+}
+.playlistCreator span{
+  color: #9b9b9b;
+}
+
+.playlistMusicContainer{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+  height: 380px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(77, 47, 30, 0.678);
+}
+
+.playlistMusic{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+  color: #9b9b9b;
+  padding: 10px 25px;
+  width: 100%;
+  height: 80px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.playlistMusic:hover{
+  background-color: #242424;
+}
+
+.playlistMusic p{
+  font-size: 20px;
+}
+
+.playlistMusic img{
+  width: 90px;
+  border-radius: 6px;
+}
+
+.musicInfo{
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+}
+
+.musicInfo h1{
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.musicInfo p{
+  font-size: 16px;
+}

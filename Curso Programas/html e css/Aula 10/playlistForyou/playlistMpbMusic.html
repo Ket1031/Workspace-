@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/playlistForyou/playlistMpbMusic.css">
+  <link rel="stylesheet" href="../styles/index.css" />
+  <title>Mix Renato Russo</title>
+</head>
+<body>
+
+  <!-- código da header -->
+  <header>
+
+    <!-- logo -->
+    <img src="../assets/logo.png" alt="logo" width="40px">
+
+    <!-- container onde ta o botão home e o input de pesquisa -->
+    <div class="searchContainer">
+      <a href="../index.html">
+        <button class="buttonHeader">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg"> <path d="M13.4508 2.53318C12.6128 1.82618 11.3872 1.82618 10.5492 2.53318L3.79916 8.22772C3.29241 8.65523 3 9.28447 3 9.94747V19.2526C3 20.2191 3.7835 21.0026 4.75 21.0026H7.75C8.7165 21.0026 9.5 20.2191 9.5 19.2526V15.25C9.5 14.5707 10.0418 14.018 10.7169 14.0004H13.2831C13.9582 14.018 14.5 14.5707 14.5 15.25V19.2526C14.5 20.2191 15.2835 21.0026 16.25 21.0026H19.25C20.2165 21.0026 21 20.2191 21 19.2526V9.94747C21 9.28447 20.7076 8.65523 20.2008 8.22772L13.4508 2.53318Z" fill="#9b9b9b"/> </svg>
+        </button>
+      </a>
+      <input type="search" class="searchInput" placeholder="O que queres reproduzir?">
+    </div>
+
+    <!-- container onde vai ter o svg de notificações e o avatar do usuário -->
+     <div class="featureContainer">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg"> <path d="M9.04173 19.003H14.9583C14.7196 20.4211 13.486 21.5015 12 21.5015C10.514 21.5015 9.28037 20.4211 9.04173 19.003ZM12 2.00391C16.1421 2.00391 19.5 5.36177 19.5 9.50391V13.5024L20.9183 16.6625C20.9732 16.7848 21.0016 16.9174 21.0016 17.0515C21.0016 17.5762 20.5763 18.0015 20.0516 18.0015H3.95219C3.8184 18.0015 3.68613 17.9733 3.56402 17.9186C3.08515 17.7042 2.87073 17.1422 3.08511 16.6633L4.50001 13.5028L4.50011 9.49099L4.50453 9.24107C4.6436 5.21035 7.95588 2.00391 12 2.00391Z" fill="#9b9b9b"/> </svg>
+      <div class="avatarContainer">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg"> <path d="M17.7545 14.0002C18.9966 14.0002 20.0034 15.007 20.0034 16.2491V17.1675C20.0034 17.7409 19.8242 18.2999 19.4908 18.7664C17.9449 20.9296 15.4206 22.0013 12.0004 22.0013C8.5794 22.0013 6.05643 20.9292 4.51427 18.7648C4.18231 18.2989 4.00391 17.7411 4.00391 17.169V16.2491C4.00391 15.007 5.01076 14.0002 6.25278 14.0002H17.7545ZM12.0004 2.00488C14.7618 2.00488 17.0004 4.24346 17.0004 7.00488C17.0004 9.76631 14.7618 12.0049 12.0004 12.0049C9.23894 12.0049 7.00036 9.76631 7.00036 7.00488C7.00036 4.24346 9.23894 2.00488 12.0004 2.00488Z" fill="#9b9b9b"/> </svg>
+      </div>
+     </div>
+  </header>
+
+  <!-- Sessão onde ta a barra vertical de navegação e os conteúdos das playlists -->
+
+  <div class="screenContainer">
+
+    <!-- Início do código da sidebar -->
+
+    <div class="navbar">
+      <a class="navbarPlaylistCard"></a>
+      <a class="navbarPlaylistCard"href="../playlistScreen/playlistFavMusic.html">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg"> <path d="M12.8199 5.57912L11.9992 6.40163L11.1759 5.57838C9.07688 3.47931 5.67361 3.47931 3.57455 5.57838C1.47548 7.67744 1.47548 11.0807 3.57455 13.1798L11.4699 21.0751C11.7628 21.368 12.2377 21.368 12.5306 21.0751L20.432 13.1783C22.5264 11.0723 22.53 7.67857 20.4306 5.57912C18.3277 3.47623 14.9228 3.47623 12.8199 5.57912Z" fill="#ffffff"/> </svg>
+      </a>
+      <a class="navbarPlaylistCard" href="../playlistScreen/playlistPopMusic.html"></a>
+      <a class="navbarPlaylistCard" href="../playlistScreen/playlistMpbMusic.html"></a>
+      <a class="navbarPlaylistCard" href="../playlistScreen/playlistIndieMusic.html"></a>
+      <a class="navbarPlaylistCard" href="../playlistScreen/playlistRockMusic.html"></a>
+      <a class="navbarPlaylistCard" href="../playlistScreen/playlistJazzMusic.html"></a>
+      <a class="navbarPlaylistCard" href="../playlistScreen/playlistEletronicMusic.html"></a>
+      <a class="navbarPlaylistCard" href="../playlistScreen/playlistJaponeseMusic.html"></a>
+    </div>
+
+    <!-- Fim do código da sidebar -->
+
+    <!-- Início do código do container da Playlist -->
+
+    <div class="playlistContainer">
+      <div class="playlistInfoContainer">
+        <img src="../assets/renatoRussoImage.jpeg" class="logoPlaylistMpb" alt="Logo Mpb">
+        <div class="playlistInfoContent">
+          <p class="contentInfo">Playlist</p>
+          <h1 class="playlistTitle">Mix Renato Russo</h1>
+          <div class="playlistCreatorInfo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg"> <path d="M17.7545 14.0002C18.9966 14.0002 20.0034 15.007 20.0034 16.2491V17.1675C20.0034 17.7409 19.8242 18.2999 19.4908 18.7664C17.9449 20.9296 15.4206 22.0013 12.0004 22.0013C8.5794 22.0013 6.05643 20.9292 4.51427 18.7648C4.18231 18.2989 4.00391 17.7411 4.00391 17.169V16.2491C4.00391 15.007 5.01076 14.0002 6.25278 14.0002H17.7545ZM12.0004 2.00488C14.7618 2.00488 17.0004 4.24346 17.0004 7.00488C17.0004 9.76631 14.7618 12.0049 12.0004 12.0049C9.23894 12.0049 7.00036 9.76631 7.00036 7.00488C7.00036 4.24346 9.23894 2.00488 12.0004 2.00488Z" fill="#9b9b9b"/> </svg>
+            <p class="playlistCreator"><b>Anônimo</b><span> • 2K+ músicas</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Container de músicas -->
+
+      <div class="playlistMusicContainer">
+        <a class="playlistMusic" href="https://youtu.be/FX9s_RfEzJE?si=1LA09_hFOcHnskAx">
+          <p>1</p>
+          <img src="../assets/ciceroMusic.png" alt="thumbnail">
+          <div class="musicInfo">
+            <h1>Tempo de Pipa</h1>
+            <p>Cícero </p>
+          </div>
+        </a>
+        <a class="playlistMusic" href="https://youtu.be/aVGPLa8iyM4?si=-UB5EgRGbFBKurWF">
+          <p>2</p>
+          <img src="../assets/juliosecchinMusic.png" alt="thumbnail">
+          <div class="musicInfo">
+            <h1>Jovem (Clipe Oficial)</h1>
+            <p>Julio Secchin</p>
+          </div>
+        </a>
+        <a class="playlistMusic" href="https://youtu.be/vPTxVQDk11U?si=1-os0v1ars9uGCQi">
+          <p>3</p>
+          <img src="../assets/jovemdionisioMusic.png" alt="thumbnail">
+          <div class="musicInfo">
+            <h1> Pontos de Exclamação (Clipe Oficial)</h1>
+            <p>Jovem Dionisio</p>
+          </div>
+        </a>
+        <a class="playlistMusic" href="https://youtu.be/tMWpm_GOLaA?si=eExMBrPHvaME2Sj_">
+          <p>4</p>
+          <img src="../assets/rubelMusic.png" alt="thumbnail">
+          <div class="musicInfo">
+            <h1>Quando Bate Aquela Saudade [Clipe Oficial]</h1>
+            <p>Rubel</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+</body>
+</html>
