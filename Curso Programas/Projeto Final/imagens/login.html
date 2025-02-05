@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universo dos Livros - Login</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Estilo do body */
+    body {
+      background: url(imagens/2149988830.jpg) no-repeat center center fixed; /* Imagem de fundo centralizada */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .login-container {
+      background: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+      backdrop-filter: blur(6px); /* Efeito de desfoque */
+      border-radius: 30% 10%;
+      padding: 30px;
+      width: 100%;
+      max-width: 400px; /* Definindo uma largura máxima */
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .login-container h1 {
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    .login-container input[type="email"], 
+    .login-container input[type="password"] {
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+    }
+
+    .login-container input::placeholder {
+      color: #ddd;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4a90e2;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .login-container button:hover {
+      background-color: #357abd;
+    }
+
+    .login-container a {
+      display: block;
+      margin-top: 10px;
+      color: #a1d9ff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .login-container a:hover {
+      text-decoration: underline;
+    }
+
+    /* Rodapé */
+    .footer {
+      background-color: #0d1127;
+      color: #fff;
+      text-align: center;
+      padding: 10px 20px;
+      width: 100%;
+    }
+    .footer-columns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 10px;
+    }
+    .footer-column {
+      flex: 1;
+      margin-bottom: 20px;
+      padding: 10px;
+      line-height: 1.6;
+    }
+    .footer-column a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+    .footer-column a:hover {
+      color: #00bfff;
+    }
+    .footer-column ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .social-links {
+      margin-top: 20px;
+    }
+    .social-links img {
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
+    }
+    .footer p {
+      margin-top: 20px;
+    }
+
+    /* Ajustes responsivos */
+    @media (max-width: 768px) {
+      .footer-columns {
+        flex-direction: column;
+        align-items: center;
+      }
+      .footer-column {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-container">
+      <h1>Universo dos Livros</h1>
+      <p><strong>Bem-vindo de volta!</strong></p>
+      <form>
+        <input type="email" placeholder="E-mail" required>
+        <input type="password" placeholder="Senha" required>
+        <button type="submit">Entrar</button>
+      </form>
+      <a href="#">Não tem cadastro? Registre-se aqui!</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3>Sobre Nós</h3>
+        <ul>
+          <li><a href="#">Nossa História</a></li>
+          <li><a href="#">Equipe</a></li>
+          <li><a href="#">Missão e Valores</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Ajuda</h3>
+        <ul>
+          <li><a href="#">Suporte ao Cliente</a></li>
+          <li><a href="#">Perguntas Frequentes</a></li>
+          <li><a href="#">Política de Devoluções</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contato</h3>
+        <ul>
+          <li>Email: contato@universodoslivros.com</li>
+          <li>Telefone: (91) 91234 5678</li>
+          <li>Endereço: Rua Universo dos Livros, 123</li>
+        </ul>
+      </div>
+    </div>
+    <div class="social-links">
+      <a href="homepage.html"><img src="imagens/Facebook_Logo_2023.png" alt="Facebook"></a>
+      <a href="homepage.html"><img src="imagens/circle-linkedin-512.webp" alt="Linkedin"></a>
+      <a href="homepage.html"><img src="imagens/social-instagram-new-circle-512.webp" alt="Instagram"></a>
+    </div>
+    <p>&copy; 2025 Universo dos Livros. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
