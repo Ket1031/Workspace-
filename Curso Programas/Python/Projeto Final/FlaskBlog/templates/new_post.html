@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadados da página -->
+    <meta charset="UTF-8">
+    <title>Novo Post</title>
+</head>
+<body>
+    <!-- Título principal da página -->
+    <h1>Criar Novo Post</h1>
+
+    <!-- Formulário para criação de um novo post -->
+    <form action="{{ url_for('new_post') }}" method="post" enctype="multipart/form-data">
+        <!-- Campo para inserção do título do post -->
+        <label for="title">Título:</label>
+        <input type="text" name="title" id="title" required>
+        <br><br>
+
+        <!-- Campo para inserção da descrição do post -->
+        <label for="description">Descrição:</label>
+        <textarea name="description" id="description" required></textarea>
+        <br><br>
+
+        <!-- Campo para upload de uma imagem para o post -->
+        <label for="file">Imagem:</label>
+        <input type="file" name="file" id="file">
+        <br><br>
+
+        <!-- Botão para submeter o formulário -->
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+
+    <!-- Link para voltar à página inicial -->
+    <a href="{{ url_for('index') }}">Voltar</a>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <!-- Define a codificação de caracteres da página como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Define o título da página que será exibido na aba do navegador -->
+    <title>Flask Blog</title>
+</head>
+<body>
+    <!-- Título principal da página -->
+    <h1>Blog Posts</h1>
+    <!-- Link para a página de criação de um novo post, utilizando a função url_for do Flask -->
+    <a href="{{ url_for('new_post') }}">Novo Post</a>
+    <!-- Linha horizontal para separar seções de conteúdo -->
+    <hr>
+    <!-- Loop para exibir cada post na lista de posts -->
+    {% for post in posts %}
+        <!-- Título do post -->
+        <h2>{{ post.title }}</h2>
+        <!-- Verifica se o post tem uma imagem e a exibe -->
+        {% if post.image_url %}
+            <img src="{{ post.image_url }}" alt="Post Image" width="300">
+        {% endif %}
+        <!-- Descrição do post -->
+        <p>{{ post.description }}</p>
+        <!-- Linha horizontal para separar posts -->
+        <hr>
+    {% endfor %}
+</body>
+</html>
