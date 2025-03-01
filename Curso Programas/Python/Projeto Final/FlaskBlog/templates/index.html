@@ -1,29 +1,100 @@
 <html lang="en">
-<head>
+  <head>
     <!-- Define a codificação de caracteres da página como UTF-8 -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Define o título da página que será exibido na aba do navegador -->
     <title>Flask Blog</title>
-</head>
-<body>
+  </head>
+
+  <body>
+    <style>
+      /* Estilo para o cabeçalho da página */
+      h1 {
+        color: white;
+        font-family: cursive;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(106, 18, 109);
+        border-radius: 5px;
+      }
+      hr {
+        width: 100%;
+        margin: auto;
+        border: 1px solid white;
+      }
+
+      body {
+        background-color: rgb(246, 201, 220) !important;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      button {
+        background-color: rgb(106, 18, 109);
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        margin: 10px;
+      }
+      .gatinhos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+    }
+     
+    .gatinho {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+
+      }
+
+      h2 {
+        color: rgb(61, 10, 62);
+        font-family: cursive;
+        border-radius: 5px;
+      }
+      img {
+        height: auto;
+        border-radius: 5px;
+      }
+      p {
+        color: rgb(61, 10, 62);
+        font-family: cursive;
+      }
+    </style>
+
     <!-- Título principal da página -->
     <h1>Blog Posts</h1>
     <!-- Link para a página de criação de um novo post, utilizando a função url_for do Flask -->
-    <a href="{{ url_for('new_post') }}">Novo Post</a>
+
+    <button><a href="{{ url_for('new_post') }}">Novo Post</a></button>
     <!-- Linha horizontal para separar seções de conteúdo -->
-    <hr>
-    <!-- Loop para exibir cada post na lista de posts -->
-    {% for post in posts %}
-        <!-- Título do post -->
-        <h2>{{ post.title }}</h2>
-        <!-- Verifica se o post tem uma imagem e a exibe -->
-        {% if post.image_url %}
-            <img src="{{ post.image_url }}" alt="Post Image" width="300">
-        {% endif %}
-        <!-- Descrição do post -->
-        <p>{{ post.description }}</p>
-        <!-- Linha horizontal para separar posts -->
-        <hr>
-    {% endfor %}
-</body>
+    <hr />
+    <div class="gatinhos">
+        {% for post in posts %}
+        <div class="gatinho">
+            <!-- Título do post -->
+            <h2>{{ post.title }}</h2>
+            <!-- Verifica se o post tem uma imagem e a exibe -->
+            {% if post.image_url %}
+            <img src="{{ post.image_url }}" alt="Post Image" width="300" />
+            {% endif %}
+            <!-- Descrição do post -->
+            <p>{{ post.description }}</p>
+        </div>
+        {% endfor %}
+    </div>
+      <hr />
+    </div>
+  </body>
 </html>
